@@ -13,6 +13,7 @@ import java.net.URI;
 import java.util.stream.Stream;
 
 @RestController
+@CrossOrigin
 @RequestMapping("/contacts")
 public class ContactController {
     @Autowired
